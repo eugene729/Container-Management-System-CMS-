@@ -1,0 +1,14 @@
+body, p, div, h1, h2, h3, h4, h5, h6, td, th, select, input, textarea, a, pre
+{
+	font-family: Tahoma;
+}
+
+body, p, div, td, th, select, input, textarea, a, pre
+{
+	font-size: 8pt;
+}
+
+.tdheader1
+{
+	background-color: #E7E6D3;
+}

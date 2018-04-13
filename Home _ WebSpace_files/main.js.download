@@ -1,0 +1,7 @@
+jQuery(document).ready(function($){
+    $(window).bind('scroll', function() {
+        var navHeight = $("header").height();
+        console.log(navHeight);
+        ($(window).scrollTop() > navHeight) ? $('.navbar-inverse').addClass('goToTop') : $('nav').removeClass('goToTop');
+    });
+});
